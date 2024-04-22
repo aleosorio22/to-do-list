@@ -1,0 +1,46 @@
+:root{
+    --clr-main: #141E46; 
+    --clr-secundary: #41B06E;
+}
+
+body, html{
+    height: 100%;
+    margin: 0;
+    background-color: var(--clr-main);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    text-align: center;
+}
+
+.list-container{
+    background-color: var(--clr-secundary);
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+    text-align: center;   
+}
+.item{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.list-back-container{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.btn-trash{
+    margin: 10px;
+}

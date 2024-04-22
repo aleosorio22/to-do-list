@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO DO LIST</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">THIS IS A TO-DO LIST</h1>   
+        <div class="list-container">
+            <h2>MY LIST</h2>
+            <div class="list-back-container">
+                <ul>
+                    <li class="item">
+                        <input type="checkbox" class="task-checkbox">
+                        <span>Relizar buenas practicas en el codigo</span>
+                        <a class="btn-trash">
+                            <i class="bi bi-trash3-fill"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <input type="text" id="new-task" placeholder="Enter task name">
+            <button class="add-item" id="add-item">Add Item</button>
+        </div>
+    </div>
+    <script src="./script/script.js"></script>
+</body>
+</html>
